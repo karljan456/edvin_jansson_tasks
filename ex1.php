@@ -7,7 +7,6 @@
     <title>Exercise</title>
 </head>
 <body>
-<?php include 'header.php' ?>
 <h1>3.1 Write a simple PHP script to print your information (Name and your groupid)</h1>
 <?php
 echo "Edvin Jansson<br>";
@@ -24,6 +23,5 @@ echo "Today is " . date("d-m-Y") . "<br>";
 <h1></h1>
 <?php
 ?>
-<?php include 'footer.php' ?>
 </body>
 </html>
