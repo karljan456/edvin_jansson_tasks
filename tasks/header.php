@@ -12,7 +12,7 @@
         crossorigin="anonymous"></script>
 
 
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="../tasks\images\favicon.ico">
 
     <link href="https://fonts.cdnfonts.com/css/roboto-condensed" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -37,9 +37,9 @@
 
         <nav class="navbar navbar-expand-xl  navbar-dark ms-auto pr-3   ">
 
-            <a class="navbar-brand justify-content-start" href="index.html">
+            <a class="navbar-brand justify-content-start" href="index.php">
                 <!-- Liverpool logo in the navbar-->
-                <img class="navbar_logo" src="lfc_logo.png" alt="Liverpool FC logo">
+                <img class="navbar_logo" src="../tasks\images\lfc_logo.png" alt="Liverpool FC logo">
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -51,7 +51,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav topnav ms-auto float-lg-end">
                     <li class="nav-item active">
-                    </li>                    
+                    </li>         
+                    <li class="nav-item">
+                        <a class="nav-link" href="..\tasks/variable.php">Exercise 3</a>
+                    </li>           
                     <li class="nav-item">
                         <a class="nav-link" href="..\ex1.php">Exercise 1</a>
                     </li>
@@ -89,7 +92,7 @@
                 <div class="nav-item user-box ">
 
                     <a class="nav-link user-link " href="#">
-                        <img src="user.svg" width="18" alt="Signup" class="nav-icon"> Join</a>
+                        <img src="../tasks\icons\user.svg" width="18" alt="Signup" class="nav-icon"> Join</a>
 
 
                     <a class="nav-link user-link" href="#">Login</a>
@@ -98,7 +101,7 @@
                 </div>
                 <!--user-box login links end-->
                 <div class="nav-item justify-content-end sponser">
-                    <a href="https://www.sc.com/en/"><img src="sponser.svg" width="120" alt="sponser"></a>
+                    <a href="https://www.sc.com/en/"><img src="../tasks\images\sponser.svg" width="120" alt="sponser"></a>
                 </div>
             </div>
         </nav>
