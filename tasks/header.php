@@ -51,10 +51,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav topnav ms-auto float-lg-end">
                     <li class="nav-item active">
-                    </li>         
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="..\tasks/controlflow.php">Exercise 4</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="..\tasks/variable.php">Exercise 3</a>
-                    </li>           
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="..\ex1.php">Exercise 1</a>
                     </li>
@@ -101,7 +104,8 @@
                 </div>
                 <!--user-box login links end-->
                 <div class="nav-item justify-content-end sponser">
-                    <a href="https://www.sc.com/en/"><img src="../tasks\images\sponser.svg" width="120" alt="sponser"></a>
+                    <a href="https://www.sc.com/en/"><img src="../tasks\images\sponser.svg" width="120"
+                            alt="sponser"></a>
                 </div>
             </div>
         </nav>

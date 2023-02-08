@@ -10,4 +10,4 @@ $date = $_POST['bdate'];
 
 echo "<h3> Your name is $fname $lname. Your favourite color is $color and your date of birth is $date </h3>";
 ?>
-<?php include 'footer.php'?>
+<?php include 'footer.php' ?>
