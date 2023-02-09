@@ -53,6 +53,9 @@
                     <li class="nav-item active">
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="..\tasks/array.php">Exercise 5</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="..\tasks/controlflow.php">Exercise 4</a>
                     </li>
                     <li class="nav-item">
