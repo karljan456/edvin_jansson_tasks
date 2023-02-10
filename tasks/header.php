@@ -12,13 +12,13 @@
         crossorigin="anonymous"></script>
 
 
-    <link rel="icon" type="image/x-icon" href="../tasks\images\favicon.ico">
+    <link rel="icon" type="image/x-icon" href="../tasks/images/favicon.ico">
 
     <link href="https://fonts.cdnfonts.com/css/roboto-condensed" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <title>LFC Fan Club</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../tasks/styles.css">
 
 </head>
 
@@ -39,7 +39,7 @@
 
             <a class="navbar-brand justify-content-start" href="index.php">
                 <!-- Liverpool logo in the navbar-->
-                <img class="navbar_logo" src="../tasks\images\lfc_logo.png" alt="Liverpool FC logo">
+                <img class="navbar_logo" src="../tasks/images/lfc_logo.png" alt="Liverpool FC logo">
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -53,16 +53,16 @@
                     <li class="nav-item active">
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="..\tasks/array.php">Exercise 5</a>
+                        <a class="nav-link" href="../tasks/array.php">Exercise 5</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="..\tasks/controlflow.php">Exercise 4</a>
+                        <a class="nav-link" href="../tasks/controlflow.php">Exercise 4</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="..\tasks/variable.php">Exercise 3</a>
+                        <a class="nav-link" href="../tasks/variable.php">Exercise 3</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="..\ex1.php">Exercise 1</a>
+                        <a class="nav-link" href="../ex1.php">Exercise 1</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.php">Home</a>
@@ -98,7 +98,7 @@
                 <div class="nav-item user-box ">
 
                     <a class="nav-link user-link " href="#">
-                        <img src="../tasks\icons\user.svg" width="18" alt="Signup" class="nav-icon"> Join</a>
+                        <img src="../tasks/icons/user.svg" width="18" alt="Signup" class="nav-icon"> Join</a>
 
 
                     <a class="nav-link user-link" href="#">Login</a>
@@ -107,7 +107,7 @@
                 </div>
                 <!--user-box login links end-->
                 <div class="nav-item justify-content-end sponser">
-                    <a href="https://www.sc.com/en/"><img src="../tasks\images\sponser.svg" width="120"
+                    <a href="https://www.sc.com/en/"><img src="../tasks/images/sponser.svg" width="120"
                             alt="sponser"></a>
                 </div>
             </div>

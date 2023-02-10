@@ -102,7 +102,7 @@ echo $_SERVER['HTTP_USER_AGENT'];
     the last modification time of a file.</h2>
 
 <?php
-echo "Last modified on " . date("F d Y H:i:s.", filemtime("variable.php"));
+echo "Last modified on " . date("F d Y H:i:s.", filemtime('variable.php'));
 ?>
 
 
