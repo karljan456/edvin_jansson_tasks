@@ -70,7 +70,7 @@
                 <div class=" col-md-6 order-2 order-md-1 float-left">
                     &copy; Copyright 2023 - Liverpool Fan Club - All Rights Reserved.<br>
                     <?php
-                    echo "Last modified on " . date("F d Y H:i:s.", filemtime('variablr.php'));
+                    echo "Last modified on " . date("F d Y H:i:s.", filemtime('../tasks/variable.php'));
                     ?>
                 </div>
                 <div class="col-md-6 order-1 order-md-1 float-right">

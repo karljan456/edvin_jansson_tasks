@@ -19,7 +19,7 @@ include '../tasks/header.php';
 
 <?php
 
-if(isset($_POST['submit'])){
+if (isset($_POST['submit'])) {
 
     $fname = $_POST['fname'];
     $lname = $_POST['lname'];
@@ -30,13 +30,13 @@ if(isset($_POST['submit'])){
     $sql = "Insert into studentinfo (fname, lname, city, groupid)
     values ('$fname', '$lname', '$city', '$groupid')";
 
-    if ($conn -> query($sql) === TRUE){
+    if ($conn->query($sql) === TRUE) {
 
         echo "Your information is added successfully";
 
-    }else{
+    } else {
 
-        echo "Error" . $conn -> error;
+        echo "Error" . $conn->error;
 
 
     }
