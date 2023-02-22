@@ -20,6 +20,9 @@
     <title>LFC Fan Club</title>
     <link rel="stylesheet" href="../tasks/styles.css">
 
+    </style>
+    <script src="../javascript/site.js"></script>
+
 </head>
 
 <body class="wrapper">

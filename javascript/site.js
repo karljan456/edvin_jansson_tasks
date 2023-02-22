@@ -22,6 +22,43 @@ function changeBackgroundColor(where, newColor){
 
 }
 
+function changeColour(){
+
+    let color = document.getElementById("bg").value;
+    document.body.style.backgroundColor = color;
+
+}
+
+function changeFColor(){
+
+    let fcolor = document.getElementById("fc").value;
+    document.body.style.color = fcolor;
+
+}
+
+// crud function
+function crud(){
+
+    let fname = (document.form1.fname.value).trim();
+    if (fname.length < 5){
+
+        alert("First name must have at least 5 characters");
+        return false;
+    }
+
+}
+
+function fname(){
+
+    let fname = (document.form1.fname.value).trim();
+    if (fname.length < 5){
+
+        alert("First name must have at least 5 characters");
+        return false;
+    }
+
+}
+
 // document.getElementById(id)
 // display or like echo 
 // document.write

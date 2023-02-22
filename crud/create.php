@@ -5,8 +5,8 @@ include '../tasks/header.php';
 ?>
 
 
-<form method="post" action=""><br><br>
-    <input type="text" name="fname" placeholder="First Name" required class="form-control"><br><br>
+<form method="post" action="" onsubmit="return crud()"  name="form1"><br><br>
+    <input type="text" name="fname" placeholder="First Name" required onblur="fname()" class="form-control"><br><br>
     <input type="text" name="lname" placeholder="Last Name" required class="form-control"><br><br>
     <input type="text" name="city" placeholder="City" required class="form-control"><br><br>
     <select name="groupid">
